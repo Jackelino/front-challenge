@@ -168,8 +168,8 @@ const Component = ({
     const { drag } = lastEvent;
     const { beforeTranslate } = drag;
 
-    const absoluteTop = top + beforeTranslate[1];
-    const absoluteLeft = left + beforeTranslate[0];
+    const absoluteTop = top ;
+    const absoluteLeft = left ;
 
     updateMoveable(
       id,
